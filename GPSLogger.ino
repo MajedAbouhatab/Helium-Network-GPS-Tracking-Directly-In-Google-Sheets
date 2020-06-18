@@ -87,8 +87,5 @@ void loop( void )
     LoRaWAN.sendPacket(ThisLPP.getBuffer(), ThisLPP.getSize());
     // End send
     digitalWrite(Blue, 0);
-  } //else digitalWrite(Blue, 1 - digitalRead(Blue));
-  // Blink Red LED
-  //digitalWrite(Red, 1 - digitalRead(Red));
-  //delay(500);
+  } 
 }
